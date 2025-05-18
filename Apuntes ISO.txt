@@ -1,0 +1,17 @@
+Apuntes de ISO - Tema 3: Gestión de Usuarios y Grupos
+
+1. Crear un nuevo usuario:
+   sudo adduser nombre_usuario
+
+2. Asignar un usuario a un grupo:
+   sudo usermod -aG grupo nombre_usuario
+
+3. Ver los grupos de un usuario:
+   groups nombre_usuario
+
+4. Cambiar la contraseña de un usuario:
+   sudo passwd nombre_usuario
+
+5. Eliminar un grupo:
+   sudo delete group nombre_grupo   <-- ERROR: Comando incorrecto
+
