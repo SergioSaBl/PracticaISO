@@ -13,5 +13,5 @@ Apuntes de ISO - Tema 3: Gestión de Usuarios y Grupos
    sudo passwd nombre_usuario
 
 5. Eliminar un grupo:
-   sudo delete group nombre_grupo   <-- ERROR: Comando incorrecto
+   sudo delgroup nombre_grupo
 
